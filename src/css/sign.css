@@ -1,0 +1,25 @@
+label{
+ font-weight: bolder;   
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace
+}
+input{
+    border-radius: 10px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+form{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    border: 2px solid red;
+    background-color: darksalmon;
+}
+body{
+    /* background-color: cyan; */
+}
+.forError{
+    margin-top: 150px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

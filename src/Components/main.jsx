@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import { Signup } from "../Signup/signup";
 import { Login } from "./login";
-import { Employee } from "./employee";
+import Employee from "./employee";
 import EmpDetails from "./empdetails";
 import UserPost from "./userpost";
 import todos from "./todos";

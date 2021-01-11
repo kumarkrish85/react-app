@@ -9,6 +9,7 @@ class EmpDetails extends Component {
   constructor(props) {
     super(props);
     console.log(store.getState());
+    this.empId = "employeeArray/" + store.getState().employee.employeeid;
     axios.get(this.empId).then((data) => {
       console.log(data);
       this.employee = data.data;
